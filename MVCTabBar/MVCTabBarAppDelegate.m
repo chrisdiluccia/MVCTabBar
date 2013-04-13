@@ -12,7 +12,7 @@
 #import "ViewController.h"
 
 @implementation MVCTabBarAppDelegate
-@synthesize window;
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
