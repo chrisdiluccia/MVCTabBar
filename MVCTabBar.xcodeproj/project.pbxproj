@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C802331718E3E500F9161A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C802321718E3E500F9161A /* UIKit.framework */; };
+		39C802351718E3E500F9161A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C802341718E3E500F9161A /* Foundation.framework */; };
+		39C802371718E3E500F9161A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C802361718E3E500F9161A /* CoreGraphics.framework */; };
+		39C8023D1718E3E500F9161A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39C8023B1718E3E500F9161A /* InfoPlist.strings */; };
+		39C8023F1718E3E500F9161A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8023E1718E3E500F9161A /* main.m */; };
+		39C802451718E3E500F9161A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C802441718E3E500F9161A /* Default.png */; };
+		39C802471718E3E500F9161A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C802461718E3E500F9161A /* Default@2x.png */; };
+		39C802491718E3E500F9161A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C802481718E3E500F9161A /* Default-568h@2x.png */; };
+		39C802621718E44A00F9161A /* MVCTabBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C802501718E44A00F9161A /* MVCTabBarAppDelegate.m */; };
+		39C802631718E44A00F9161A /* entertainer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 39C802511718E44A00F9161A /* entertainer.m4a */; };
+		39C802641718E44A00F9161A /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C802531718E44A00F9161A /* Model.m */; };
+		39C802651718E44A00F9161A /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C802541718E44A00F9161A /* Music.png */; };
+		39C802661718E44A00F9161A /* MusicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C802561718E44A00F9161A /* MusicView.m */; };
+		39C802671718E44A00F9161A /* ScottJoplin.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C802571718E44A00F9161A /* ScottJoplin.png */; };
+		39C802681718E44A00F9161A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C802591718E44A00F9161A /* TabBarController.m */; };
+		39C802691718E44A00F9161A /* Text.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C8025A1718E44A00F9161A /* Text.png */; };
+		39C8026A1718E44A00F9161A /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8025C1718E44A00F9161A /* TextView.m */; };
+		39C8026B1718E44A00F9161A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C8025E1718E44A00F9161A /* ViewController.m */; };
+		39C8026C1718E44A00F9161A /* Web.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C8025F1718E44A00F9161A /* Web.png */; };
+		39C8026D1718E44A00F9161A /* WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C802611718E44A00F9161A /* WebView.m */; };
+		39C802701718E50E00F9161A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C8026E1718E50E00F9161A /* AVFoundation.framework */; };
+		39C802711718E50E00F9161A /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C8026F1718E50E00F9161A /* CoreAudio.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39C8022F1718E3E500F9161A /* MVCTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C802321718E3E500F9161A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39C802341718E3E500F9161A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39C802361718E3E500F9161A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39C8023A1718E3E500F9161A /* MVCTabBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MVCTabBar-Info.plist"; sourceTree = "<group>"; };
+		39C8023C1718E3E500F9161A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39C8023E1718E3E500F9161A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39C802401718E3E500F9161A /* MVCTabBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MVCTabBar-Prefix.pch"; sourceTree = "<group>"; };
+		39C802441718E3E500F9161A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		39C802461718E3E500F9161A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		39C802481718E3E500F9161A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		39C8024F1718E44A00F9161A /* MVCTabBarAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCTabBarAppDelegate.h; sourceTree = "<group>"; };
+		39C802501718E44A00F9161A /* MVCTabBarAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCTabBarAppDelegate.m; sourceTree = "<group>"; };
+		39C802511718E44A00F9161A /* entertainer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = entertainer.m4a; sourceTree = "<group>"; };
+		39C802521718E44A00F9161A /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		39C802531718E44A00F9161A /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		39C802541718E44A00F9161A /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Music.png; sourceTree = "<group>"; };
+		39C802551718E44A00F9161A /* MusicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicView.h; sourceTree = "<group>"; };
+		39C802561718E44A00F9161A /* MusicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicView.m; sourceTree = "<group>"; };
+		39C802571718E44A00F9161A /* ScottJoplin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ScottJoplin.png; sourceTree = "<group>"; };
+		39C802581718E44A00F9161A /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		39C802591718E44A00F9161A /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		39C8025A1718E44A00F9161A /* Text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Text.png; sourceTree = "<group>"; };
+		39C8025B1718E44A00F9161A /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+		39C8025C1718E44A00F9161A /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		39C8025D1718E44A00F9161A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39C8025E1718E44A00F9161A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39C8025F1718E44A00F9161A /* Web.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Web.png; sourceTree = "<group>"; };
+		39C802601718E44A00F9161A /* WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebView.h; sourceTree = "<group>"; };
+		39C802611718E44A00F9161A /* WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebView.m; sourceTree = "<group>"; };
+		39C8026E1718E50E00F9161A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		39C8026F1718E50E00F9161A /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C8022C1718E3E500F9161A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C802701718E50E00F9161A /* AVFoundation.framework in Frameworks */,
+				39C802711718E50E00F9161A /* CoreAudio.framework in Frameworks */,
+				39C802331718E3E500F9161A /* UIKit.framework in Frameworks */,
+				39C802351718E3E500F9161A /* Foundation.framework in Frameworks */,
+				39C802371718E3E500F9161A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C802261718E3E500F9161A = {
+			isa = PBXGroup;
+			children = (
+				39C8026E1718E50E00F9161A /* AVFoundation.framework */,
+				39C8026F1718E50E00F9161A /* CoreAudio.framework */,
+				39C802381718E3E500F9161A /* MVCTabBar */,
+				39C802311718E3E500F9161A /* Frameworks */,
+				39C802301718E3E500F9161A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C802301718E3E500F9161A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C8022F1718E3E500F9161A /* MVCTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C802311718E3E500F9161A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39C802321718E3E500F9161A /* UIKit.framework */,
+				39C802341718E3E500F9161A /* Foundation.framework */,
+				39C802361718E3E500F9161A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39C802381718E3E500F9161A /* MVCTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				39C8024F1718E44A00F9161A /* MVCTabBarAppDelegate.h */,
+				39C802501718E44A00F9161A /* MVCTabBarAppDelegate.m */,
+				39C802521718E44A00F9161A /* Model.h */,
+				39C802531718E44A00F9161A /* Model.m */,
+				39C802551718E44A00F9161A /* MusicView.h */,
+				39C802561718E44A00F9161A /* MusicView.m */,
+				39C802581718E44A00F9161A /* TabBarController.h */,
+				39C802591718E44A00F9161A /* TabBarController.m */,
+				39C8025B1718E44A00F9161A /* TextView.h */,
+				39C8025C1718E44A00F9161A /* TextView.m */,
+				39C8025D1718E44A00F9161A /* ViewController.h */,
+				39C8025E1718E44A00F9161A /* ViewController.m */,
+				39C802601718E44A00F9161A /* WebView.h */,
+				39C802611718E44A00F9161A /* WebView.m */,
+				39C802391718E3E500F9161A /* Supporting Files */,
+			);
+			path = MVCTabBar;
+			sourceTree = "<group>";
+		};
+		39C802391718E3E500F9161A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39C802541718E44A00F9161A /* Music.png */,
+				39C802571718E44A00F9161A /* ScottJoplin.png */,
+				39C8025A1718E44A00F9161A /* Text.png */,
+				39C8025F1718E44A00F9161A /* Web.png */,
+				39C802511718E44A00F9161A /* entertainer.m4a */,
+				39C8023A1718E3E500F9161A /* MVCTabBar-Info.plist */,
+				39C8023B1718E3E500F9161A /* InfoPlist.strings */,
+				39C8023E1718E3E500F9161A /* main.m */,
+				39C802401718E3E500F9161A /* MVCTabBar-Prefix.pch */,
+				39C802441718E3E500F9161A /* Default.png */,
+				39C802461718E3E500F9161A /* Default@2x.png */,
+				39C802481718E3E500F9161A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C8022E1718E3E500F9161A /* MVCTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C8024C1718E3E500F9161A /* Build configuration list for PBXNativeTarget "MVCTabBar" */;
+			buildPhases = (
+				39C8022B1718E3E500F9161A /* Sources */,
+				39C8022C1718E3E500F9161A /* Frameworks */,
+				39C8022D1718E3E500F9161A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MVCTabBar;
+			productName = MVCTabBar;
+			productReference = 39C8022F1718E3E500F9161A /* MVCTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C802271718E3E500F9161A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MVCTabBar;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Christopher J Di Luccia";
+			};
+			buildConfigurationList = 39C8022A1718E3E500F9161A /* Build configuration list for PBXProject "MVCTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39C802261718E3E500F9161A;
+			productRefGroup = 39C802301718E3E500F9161A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C8022E1718E3E500F9161A /* MVCTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C8022D1718E3E500F9161A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C8023D1718E3E500F9161A /* InfoPlist.strings in Resources */,
+				39C802451718E3E500F9161A /* Default.png in Resources */,
+				39C802471718E3E500F9161A /* Default@2x.png in Resources */,
+				39C802491718E3E500F9161A /* Default-568h@2x.png in Resources */,
+				39C802631718E44A00F9161A /* entertainer.m4a in Resources */,
+				39C802651718E44A00F9161A /* Music.png in Resources */,
+				39C802671718E44A00F9161A /* ScottJoplin.png in Resources */,
+				39C802691718E44A00F9161A /* Text.png in Resources */,
+				39C8026C1718E44A00F9161A /* Web.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C8022B1718E3E500F9161A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C8023F1718E3E500F9161A /* main.m in Sources */,
+				39C802621718E44A00F9161A /* MVCTabBarAppDelegate.m in Sources */,
+				39C802641718E44A00F9161A /* Model.m in Sources */,
+				39C802661718E44A00F9161A /* MusicView.m in Sources */,
+				39C802681718E44A00F9161A /* TabBarController.m in Sources */,
+				39C8026A1718E44A00F9161A /* TextView.m in Sources */,
+				39C8026B1718E44A00F9161A /* ViewController.m in Sources */,
+				39C8026D1718E44A00F9161A /* WebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39C8023B1718E3E500F9161A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C8023C1718E3E500F9161A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39C8024A1718E3E500F9161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39C8024B1718E3E500F9161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C8024D1718E3E500F9161A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCTabBar/MVCTabBar-Prefix.pch";
+				INFOPLIST_FILE = "MVCTabBar/MVCTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39C8024E1718E3E500F9161A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MVCTabBar/MVCTabBar-Prefix.pch";
+				INFOPLIST_FILE = "MVCTabBar/MVCTabBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C8022A1718E3E500F9161A /* Build configuration list for PBXProject "MVCTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C8024A1718E3E500F9161A /* Debug */,
+				39C8024B1718E3E500F9161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C8024C1718E3E500F9161A /* Build configuration list for PBXNativeTarget "MVCTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C8024D1718E3E500F9161A /* Debug */,
+				39C8024E1718E3E500F9161A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C802271718E3E500F9161A /* Project object */;
+}
