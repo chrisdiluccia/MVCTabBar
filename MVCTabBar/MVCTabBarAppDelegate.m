@@ -9,7 +9,6 @@
 #import "MVCTabBarAppDelegate.h"
 #import "Model.h"
 #import "TabBarController.h"
-#import "ViewController.h"
 
 @implementation MVCTabBarAppDelegate
 @synthesize window = _window;
@@ -21,9 +20,9 @@
     
 	Model *model = [[Model alloc] init];
 	
-    TabBarController *tabBarController = [[TabBarController alloc]initWithNibName:Nil bundle:nil model:model];
+    TabBarController *tabBarController = [[TabBarController alloc]initWithNibName:Nil bundle:nil model:model]; //init a tabBarController with my model
     
-	self.window.rootViewController = tabBarController;
+	self.window.rootViewController = tabBarController;//make the tabBarController the window's root ViewController
     
 	[self.window makeKeyAndVisible];
     NSLog(@"Hello World");
@@ -59,7 +58,7 @@
 }
 #pragma mark -
 #pragma mark Protocol UITabBarControllerDelegate
-
+/* Not ready for this code yet - ultimately I don't want it to be in the app delegate
 - (void) tabBarController: (UITabBarController *)
 tabBarController didSelectViewController: (UIViewController *) viewController {
     
@@ -81,5 +80,5 @@ tabBarController didSelectViewController: (UIViewController *) viewController {
 	last = viewController.title;
     NSLog(@"Last variable equals: %@",last);
 }
-
+*/
 @end

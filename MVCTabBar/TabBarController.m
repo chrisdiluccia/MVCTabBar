@@ -7,6 +7,8 @@
 //
 
 #import "TabBarController.h"
+#import "Model.h"
+
 
 @interface TabBarController ()
 
@@ -19,7 +21,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
-                model = m;
+        model = m; //get the model
+        self.viewControllers = model.a; //get the view controllers from the model and put them in each tab
     }
     return self;
 }

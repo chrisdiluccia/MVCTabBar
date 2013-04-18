@@ -13,6 +13,7 @@
 #import "MusicView.h"
 
 @implementation Model
+@synthesize a = _a;
 
 - (id) init
 {
@@ -47,7 +48,8 @@
              
              nil
              ];
-        return self;
     }
+    return self;
 }
+
 @end

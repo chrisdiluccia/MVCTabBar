@@ -10,8 +10,8 @@
 @class ViewController;
 
 @interface MVCTabBarAppDelegate : NSObject <UIApplicationDelegate,UITabBarControllerDelegate> {
-	UIWindow *_window;
-    NSString *last;
+	UIWindow *window;
+//    NSString *last;
 }
 
 @property (strong, nonatomic) UIWindow *window;

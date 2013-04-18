@@ -13,4 +13,6 @@
     NSArray *a;
 }
 
+@property (strong, nonatomic) NSArray *a;
+
 @end
