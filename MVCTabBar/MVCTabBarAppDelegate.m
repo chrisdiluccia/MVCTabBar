@@ -28,51 +28,6 @@
 	[self.window makeKeyAndVisible];
     NSLog(@"Hello World");
 	return YES;
-    
-//BEGIN OLD CODE NO LONGER IN USE
-/*
-    UIScreen *s = [UIScreen mainScreen];
-    CGRect f = [s applicationFrame];
-    Model *model = [[Model alloc] init];
-    
-/*    a = [NSArray arrayWithObjects:
-         
-         [[ViewController alloc]
-          initWithTitle: @"Text View"
-          image: [UIImage imageNamed: @"Text.png"]
-          badge: NULL
-          view: [[TextView alloc] initWithFrame: f]
-          ],
-         
-         [[ViewController alloc]
-          initWithTitle: @"Web View"
-          image: [UIImage imageNamed: @"Web.png"]
-          badge: NULL
-          view: [[WebView alloc] initWithFrame: f]
-          ],
-         
-         [[ViewController alloc]
-          initWithTitle: @"Music View"
-          image: [UIImage imageNamed: @"Music.png"]
-          badge: NULL
-          view: [[MusicView alloc] initWithFrame: f]
-          ],
-         
-         nil
-         ];
-       
-    self.window.rootViewController = tabBarController;
-	tabBarController.delegate = self;
-	last = ((UIViewController *)[tabBarController.viewControllers objectAtIndex: 0]).title;
-    NSLog(last);
-    
-    window = [[UIWindow alloc] initWithFrame: s.bounds];
-    [window addSubview: tabBarController.view];
-    [window makeKeyAndVisible];
-    
-    return YES;
-*/
-    //END OLD CODE NO LONGER IN USE
 }
 
 
@@ -118,6 +73,7 @@ tabBarController didSelectViewController: (UIViewController *) viewController {
     else if ([last isEqualToString: @"Music View"])
     {
 		//We are leaving the Audio tab.
+        v = ((UIViewController *)[tabBarController.viewControllers objectAtIndex: 2]); //go to the 'musicView' view Controller to issue the pause command
 		[v.audioPlayer pause];
         NSLog(@"PAUSE!");
 	}
